@@ -1,0 +1,439 @@
+{
+  "warmups": [
+    {
+      "id": "wu1",
+      "name": "500 Skips",
+      "yardage": 500,
+      "stroke": "universal",
+      "courseType": "universal",
+      "difficulty": "universal",
+      "structure": "100 Swim / 100 Kick / 100 IM / 100 Pull / 100 Swim"
+    },
+    {
+      "id": "wu2",
+      "name": "600 A",
+      "yardage": 600,
+      "stroke": "universal",
+      "courseType": "universal",
+      "difficulty": "universal",
+      "structure": "300 Swim / 200 Pull / 100 Kick"
+    },
+    {
+      "id": "wu3",
+      "name": "600 B",
+      "yardage": 600,
+      "stroke": "universal",
+      "courseType": "universal",
+      "difficulty": "universal",
+      "structure": "150 Swim / 6x75 Kick-Drill-Swim"
+    },
+    {
+      "id": "wu4",
+      "name": "500 Sprint Cycle",
+      "yardage": 500,
+      "stroke": "universal",
+      "courseType": "universal",
+      "difficulty": "universal",
+      "structure": "300 Swim / 2 rounds of 4x25 sprint cycle (build up, build down, easy, fast)"
+    },
+    {
+      "id": "wu5",
+      "name": "500 Kick Focus",
+      "yardage": 500,
+      "stroke": "universal",
+      "courseType": "universal",
+      "difficulty": "universal",
+      "structure": "200 Swim / 6x50 Kick"
+    },
+    {
+      "id": "wu6",
+      "name": "200 Swim",
+      "yardage": 200,
+      "stroke": "universal",
+      "courseType": "universal",
+      "difficulty": "universal",
+      "structure": "200 easy swim - used as the light warm-up for 1000-2000yd workouts"
+    }
+  ],
+  "presets": [
+    {
+      "id": "p1",
+      "yardage": 200,
+      "stroke": "free",
+      "courseType": "sprint",
+      "difficulty": "universal",
+      "structure": "2x100 Free - #1 Build, #2 Fast @1:40"
+    },
+    {
+      "id": "p2",
+      "yardage": 300,
+      "stroke": "free",
+      "courseType": "sprint",
+      "difficulty": "universal",
+      "structure": "3x100 Free - 25 Fast/75 Easy @1:45"
+    },
+    {
+      "id": "p3",
+      "yardage": 400,
+      "stroke": "stroke",
+      "courseType": "distance",
+      "difficulty": "universal",
+      "structure": "4x100 Choice - Odds Strong, Evens Easy @1:45"
+    },
+    {
+      "id": "p4",
+      "yardage": 200,
+      "stroke": "universal",
+      "courseType": "sprint",
+      "difficulty": "universal",
+      "structure": "4x50 Kick - Descend 1-4 @1:00"
+    },
+    {
+      "id": "p5",
+      "yardage": 300,
+      "stroke": "free",
+      "courseType": "distance",
+      "difficulty": "universal",
+      "structure": "2x150 Pull - 50 Easy + 50 Moderate + 50 Fast @2:20"
+    },
+    {
+      "id": "p6",
+      "yardage": 400,
+      "stroke": "free",
+      "courseType": "distance",
+      "difficulty": "universal",
+      "structure": "2x200 Free - 50 Easy + 100 Hard + 50 Easy @2:50"
+    },
+    {
+      "id": "p7",
+      "yardage": 300,
+      "stroke": "free",
+      "courseType": "sprint",
+      "difficulty": "universal",
+      "structure": "6x50 Free - Odds Sprint, Evens Easy @:55"
+    },
+    {
+      "id": "p8",
+      "yardage": 400,
+      "stroke": "IM",
+      "courseType": "distance",
+      "difficulty": "universal",
+      "structure": "4x100 IM - Descend 1-4 @1:40"
+    },
+    {
+      "id": "p9",
+      "yardage": 200,
+      "stroke": "stroke",
+      "courseType": "sprint",
+      "difficulty": "universal",
+      "structure": "8x25 Choice - Sprint @:35"
+    },
+    {
+      "id": "p10",
+      "yardage": 300,
+      "stroke": "stroke",
+      "courseType": "distance",
+      "difficulty": "universal",
+      "structure": "3x100 Stroke - 50 Drill + 50 Swim @2:00"
+    },
+    {
+      "id": "p11",
+      "yardage": 500,
+      "stroke": "free",
+      "courseType": "distance",
+      "difficulty": "universal",
+      "structure": "5x100 Free - Descend 1-5 @1:35"
+    },
+    {
+      "id": "p12",
+      "yardage": 400,
+      "stroke": "free",
+      "courseType": "sprint",
+      "difficulty": "universal",
+      "structure": "8x50 Free - 25 Fast/25 Easy @:50"
+    },
+    {
+      "id": "p13",
+      "yardage": 300,
+      "stroke": "universal",
+      "courseType": "sprint",
+      "difficulty": "universal",
+      "structure": "6x50 Kick - 25 Hard/25 Easy @:55"
+    },
+    {
+      "id": "p14",
+      "yardage": 400,
+      "stroke": "free",
+      "courseType": "distance",
+      "difficulty": "universal",
+      "structure": "4x100 Pull - Negative Split @1:35"
+    },
+    {
+      "id": "p15",
+      "yardage": 500,
+      "stroke": "stroke",
+      "courseType": "sprint",
+      "difficulty": "universal",
+      "structure": "10x50 Choice - Odds Moderate, Evens Fast @:55"
+    }
+  ],
+  "mainSets": [
+    {
+      "id": "m1",
+      "name": "Choice/Free Endurance",
+      "yardage": 1000,
+      "stroke": "stroke",
+      "courseType": "distance",
+      "difficulty": "easy",
+      "structure": "10x100 Choice @2:00"
+    },
+    {
+      "id": "m2",
+      "name": "Sprint Free",
+      "yardage": 2200,
+      "stroke": "free",
+      "courseType": "sprint",
+      "difficulty": "hard",
+      "structure": "Pyramid: 4x50 at descending send-offs from 1:00 down to :35 and back up, with matching rest. Each cycle of 4x50 is on the 5 min. "
+    },
+    {
+      "id": "m3",
+      "name": "250s + 50s Mixed",
+      "yardage": 1800,
+      "stroke": "universal",
+      "courseType": "distance",
+      "difficulty": "hard",
+      "structure": "Alternating 250 free-focus swims with 4x50 kick/stroke/double-arm-back combos"
+    },
+    {
+      "id": "m4",
+      "name": "Free Descend Ladder",
+      "yardage": 1700,
+      "stroke": "free",
+      "courseType": "distance",
+      "difficulty": "hard",
+      "structure": "Alternating 25s hard/easy, 200s with hard middle, easy pull/swim recovery, 100s hard/fast"
+    },
+    {
+      "id": "m5",
+      "name": "Free Fast Ladder",
+      "yardage": 1600,
+      "stroke": "free",
+      "courseType": "distance",
+      "difficulty": "hard",
+      "structure": "Descending rep count (4x100 to 1x100) each with increasing fast portion, kick/easy recovery between"
+    },
+    {
+      "id": "m6",
+      "name": "Kick/Pull/100s Rotation",
+      "yardage": 1800,
+      "stroke": "universal",
+      "courseType": "distance",
+      "difficulty": "easy",
+      "structure": "Rotating 50 kick, 150 pull, 2x100 hard/easy combo, repeated 4x with varying intensity"
+    },
+    {
+      "id": "m7",
+      "name": "Descend to Fast Non-Free + Easy Free",
+      "yardage": 1550,
+      "stroke": "stroke",
+      "courseType": "distance",
+      "difficulty": "moderate",
+      "structure": "3 rounds descending distance (100/75/50) of non-free choice descend + easy free, plus kick/pull recovery"
+    },
+    {
+      "id": "m8",
+      "name": "Free Threshold",
+      "yardage": 1700,
+      "stroke": "free",
+      "courseType": "distance",
+      "difficulty": "hard",
+      "structure": "4x50 descend, 3x200 moderate-hard, 4x100 best average, 8x25 sprint"
+    },
+    {
+      "id": "m9",
+      "name": "IM Focus",
+      "yardage": 1600,
+      "stroke": "IM",
+      "courseType": "distance",
+      "difficulty": "hard",
+      "structure": "4x100 IM descend, 4x75 stroke drill/swim, 4x100 IM strong, 4x25 choice sprint"
+    },
+    {
+      "id": "m10",
+      "name": "Broken 300s",
+      "yardage": 1800,
+      "stroke": "free",
+      "courseType": "distance",
+      "difficulty": "moderate",
+      "structure": "3x300 broken free (moderate/hard/build), pull recovery, kick hard, fast 100s"
+    },
+    {
+      "id": "m11",
+      "name": "Choice Pace",
+      "yardage": 1750,
+      "stroke": "stroke",
+      "courseType": "distance",
+      "difficulty": "moderate",
+      "structure": "5x100 choice strong/easy, pull recovery, 5x100 choice descend, kick, fast 50s"
+    },
+    {
+      "id": "m12",
+      "name": "Sprint Free",
+      "yardage": 1650,
+      "stroke": "free",
+      "courseType": "sprint",
+      "difficulty": "easy",
+      "structure": "6x50 sprint/easy, easy choice, 4x100 fast, pull easy, 8x25 all out"
+    },
+    {
+      "id": "m13",
+      "name": "IM & Stroke Rounds",
+      "yardage": 1800,
+      "stroke": "IM",
+      "courseType": "distance",
+      "difficulty": "hard",
+      "structure": "4 rounds of 100 IM strong + 50 stroke drill + 50 stroke fast + 50 easy free"
+    },
+    {
+      "id": "m14",
+      "name": "Descending Distance",
+      "yardage": 1700,
+      "stroke": "free",
+      "courseType": "distance",
+      "difficulty": "moderate",
+      "structure": "400/300/200/100 free descending distance each faster, easy 100s and sprint 25s to finish"
+    },
+    {
+      "id": "m15",
+      "name": "Broken IM",
+      "yardage": 1600,
+      "stroke": "IM",
+      "courseType": "distance",
+      "difficulty": "hard",
+      "structure": "8x50 IM order, pull easy, 4x100 IM, easy swim, 8x25 stroke sprint"
+    },
+    {
+      "id": "m16",
+      "name": "Aerobic Free",
+      "yardage": 1900,
+      "stroke": "free",
+      "courseType": "distance",
+      "difficulty": "moderate",
+      "structure": "5x200 free (odds moderate, evens hard), kick, pull build, easy choice"
+    },
+    {
+      "id": "m17",
+      "name": "Choice Ladder",
+      "yardage": 1700,
+      "stroke": "stroke",
+      "courseType": "distance",
+      "difficulty": "hard",
+      "structure": "100-200-300-400 choice ladder up then back down (300-200), easy swim finish"
+    },
+    {
+      "id": "m18",
+      "name": "Stroke Descend",
+      "yardage": 1550,
+      "stroke": "stroke",
+      "courseType": "distance",
+      "difficulty": "moderate",
+      "structure": "5 rounds of 100 non-free choice descend, 50 easy free, 50 kick strong"
+    },
+    {
+      "id": "m19",
+      "name": "Race Pace Free",
+      "yardage": 1800,
+      "stroke": "free",
+      "courseType": "sprint",
+      "difficulty": "hard",
+      "structure": "8x25 fast, easy swim, 6x100 race pace, pull easy, 4x50 sprint"
+    },
+    {
+      "id": "m20",
+      "name": "Pull & Swim",
+      "yardage": 1700,
+      "stroke": "free",
+      "courseType": "distance",
+      "difficulty": "moderate",
+      "structure": "4x150 pull build, 4x100 hard, easy choice, 4x50 pull fast, 4x25 sprint"
+    },
+    {
+      "id": "m21",
+      "name": "IM Ladder",
+      "yardage": 1600,
+      "stroke": "IM",
+      "courseType": "distance",
+      "difficulty": "hard",
+      "structure": "50 fly/100 back/150 breast/200 free/150 breast/100 back/50 fly ladder, then 8x50 IM order descend"
+    },
+    {
+      "id": "m22",
+      "name": "Broken 400s",
+      "yardage": 1800,
+      "stroke": "free",
+      "courseType": "distance",
+      "difficulty": "hard",
+      "structure": "2 rounds of broken 400 free (moderate/hard/moderate/fast), kick hard, pull easy"
+    },
+    {
+      "id": "m23",
+      "name": "Sprint Choice",
+      "yardage": 1750,
+      "stroke": "stroke",
+      "courseType": "sprint",
+      "difficulty": "medium",
+      "structure": "16x25 choice sprint, easy swim, 8x50 choice fast/easy, pull, 4x100 choice descend"
+    }
+  ],
+  "cooldowns": [
+    {
+      "id": "cd1",
+      "yardage": 300,
+      "stroke": "universal",
+      "courseType": "universal",
+      "difficulty": "universal",
+      "structure": "300 easy"
+    },
+    {
+      "id": "cd2",
+      "yardage": 200,
+      "stroke": "universal",
+      "courseType": "universal",
+      "difficulty": "universal",
+      "structure": "200 easy"
+    },
+    {
+      "id": "cd3",
+      "yardage": 500,
+      "stroke": "universal",
+      "courseType": "universal",
+      "difficulty": "universal",
+      "structure": "300 easy / 100 pull easy / 100 kick easy"
+    },
+    {
+      "id": "cd4",
+      "yardage": 400,
+      "stroke": "universal",
+      "courseType": "universal",
+      "difficulty": "universal",
+      "structure": "8x50 (2 kick easy, 1 easy stroke, 1 easy free)"
+    },
+    {
+      "id": "cd5",
+      "yardage": 500,
+      "stroke": "universal",
+      "courseType": "universal",
+      "difficulty": "universal",
+      "structure": "8x25 (2 free, 2 kick easy) / 4x50 pull / 100 easy swim"
+    },
+    {
+      "id": "cd6",
+      "yardage": 400,
+      "stroke": "universal",
+      "courseType": "universal",
+      "difficulty": "universal",
+      "structure": "4x100 any order easy - pull, free/IM, kick, free"
+    }
+  ]
+}
