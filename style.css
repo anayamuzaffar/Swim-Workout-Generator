@@ -1,0 +1,9 @@
+body{
+    background-image: url('pool.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+    text-shadow: 2px 2px 1px black;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
