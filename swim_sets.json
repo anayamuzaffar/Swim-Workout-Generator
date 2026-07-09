@@ -52,7 +52,7 @@
       "stroke": "universal",
       "courseType": "universal",
       "difficulty": "universal",
-      "structure": "200 easy swim - used as the light warm-up for 1000-2000yd workouts"
+      "structure": "200 easy swim"
     }
   ],
   "presets": [
@@ -177,15 +177,21 @@
       "structure": "10x50 Choice - Odds Moderate, Evens Fast @:55"
     }
   ],
-  "mainSets": [
+   "mainSets": [
     {
       "id": "m1",
       "name": "Choice/Free Endurance",
       "yardage": 1000,
       "stroke": "stroke",
       "courseType": "distance",
-      "difficulty": "easy",
-      "structure": "10x100 Choice @2:00"
+      "difficulty": "moderate",
+      "segments": [
+        {
+          "type": "step",
+          "text": "10 x 100 Choice @2:00",
+          "yardage": 1000
+        }
+      ]
     },
     {
       "id": "m2",
@@ -194,7 +200,63 @@
       "stroke": "free",
       "courseType": "sprint",
       "difficulty": "hard",
-      "structure": "Pyramid: 4x50 at descending send-offs from 1:00 down to :35 and back up, with matching rest. Each cycle of 4x50 is on the 5 min. "
+      "segments": [
+        {
+          "type": "step",
+          "text": "4 x 50 @1:00, rest 1:00",
+          "yardage": 200
+        },
+        {
+          "type": "step",
+          "text": "4 x 50 @:55, rest 1:20",
+          "yardage": 200
+        },
+        {
+          "type": "step",
+          "text": "4 x 50 @:50, rest 1:40",
+          "yardage": 200
+        },
+        {
+          "type": "step",
+          "text": "4 x 50 @:45, rest 2:00",
+          "yardage": 200
+        },
+        {
+          "type": "step",
+          "text": "4 x 50 @:40, rest 2:20",
+          "yardage": 200
+        },
+        {
+          "type": "step",
+          "text": "4 x 50 @:35, rest 2:40",
+          "yardage": 200
+        },
+        {
+          "type": "step",
+          "text": "4 x 50 @:40, rest 2:20",
+          "yardage": 200
+        },
+        {
+          "type": "step",
+          "text": "4 x 50 @:45, rest 2:00",
+          "yardage": 200
+        },
+        {
+          "type": "step",
+          "text": "4 x 50 @:50, rest 1:40",
+          "yardage": 200
+        },
+        {
+          "type": "step",
+          "text": "4 x 50 @:55, rest 1:20",
+          "yardage": 200
+        },
+        {
+          "type": "step",
+          "text": "4 x 50 @1:00, rest 1:00",
+          "yardage": 200
+        }
+      ]
     },
     {
       "id": "m3",
@@ -203,7 +265,48 @@
       "stroke": "universal",
       "courseType": "distance",
       "difficulty": "hard",
-      "structure": "Alternating 250 free-focus swims with 4x50 kick/stroke/double-arm-back combos"
+      "segments": [
+        {
+          "type": "step",
+          "text": "1 x 250 Moderate Free",
+          "yardage": 250
+        },
+        {
+          "type": "step",
+          "text": "4 x 50 — 2 Kick Choice, 2 Swim Choice",
+          "yardage": 200
+        },
+        {
+          "type": "step",
+          "text": "1 x 250 (25 Easy + 200 Hard + 25 Easy)",
+          "yardage": 250
+        },
+        {
+          "type": "step",
+          "text": "4 x 50 — 2 Stroke, 2 Double Arm Back",
+          "yardage": 200
+        },
+        {
+          "type": "step",
+          "text": "1 x 250 (50 Easy + 150 Fast + 50 Easy)",
+          "yardage": 250
+        },
+        {
+          "type": "step",
+          "text": "4 x 50 — 2 Kick, 2 Swim Choice",
+          "yardage": 200
+        },
+        {
+          "type": "step",
+          "text": "1 x 250 (75 Easy + 100 Fast! + 75 Easy)",
+          "yardage": 250
+        },
+        {
+          "type": "step",
+          "text": "4 x 50 — 2 Stroke, 2 Double Arm Back",
+          "yardage": 200
+        }
+      ]
     },
     {
       "id": "m4",
@@ -212,7 +315,43 @@
       "stroke": "free",
       "courseType": "distance",
       "difficulty": "hard",
-      "structure": "Alternating 25s hard/easy, 200s with hard middle, easy pull/swim recovery, 100s hard/fast"
+      "segments": [
+        {
+          "type": "step",
+          "text": "4 x 25 Free (15 yards Hard/10 yards Easy) @:40",
+          "yardage": 100
+        },
+        {
+          "type": "step",
+          "text": "2 x 200 Free (50 Easy + 100 Hard + 50 Easy) @2:50",
+          "yardage": 400
+        },
+        {
+          "type": "step",
+          "text": "2 x 100 Easy (1 Pull, 1 Swim)",
+          "yardage": 200
+        },
+        {
+          "type": "step",
+          "text": "2 x 200 Free (25 Easy + 150 Hard + 25 Easy) @2:50",
+          "yardage": 400
+        },
+        {
+          "type": "step",
+          "text": "2 x 100 Easy (1 Pull, 1 Swim)",
+          "yardage": 200
+        },
+        {
+          "type": "step",
+          "text": "2 x 100 — #1 (25 Hard/25 Easy), #2 Fast @1:45",
+          "yardage": 200
+        },
+        {
+          "type": "step",
+          "text": "2 x 100 Easy (1 Pull, 1 Swim)",
+          "yardage": 200
+        }
+      ]
     },
     {
       "id": "m5",
@@ -221,7 +360,68 @@
       "stroke": "free",
       "courseType": "distance",
       "difficulty": "hard",
-      "structure": "Descending rep count (4x100 to 1x100) each with increasing fast portion, kick/easy recovery between"
+      "segments": [
+        {
+          "type": "step",
+          "text": "4 x 100 Free (25 Fast/75 Easy) @1:45",
+          "yardage": 400
+        },
+        {
+          "type": "step",
+          "text": "50 Kick Hard @1:00",
+          "yardage": 50
+        },
+        {
+          "type": "step",
+          "text": "100 Easy Choice @2:00",
+          "yardage": 100
+        },
+        {
+          "type": "step",
+          "text": "3 x 100 Free (50 Fast/50 Easy) @1:50",
+          "yardage": 300
+        },
+        {
+          "type": "step",
+          "text": "50 Kick Hard @1:00",
+          "yardage": 50
+        },
+        {
+          "type": "step",
+          "text": "100 Easy Choice @2:00",
+          "yardage": 100
+        },
+        {
+          "type": "step",
+          "text": "2 x 100 (75 Fast/25 Easy) @1:55",
+          "yardage": 200
+        },
+        {
+          "type": "step",
+          "text": "50 Kick Hard @1:00",
+          "yardage": 50
+        },
+        {
+          "type": "step",
+          "text": "100 Easy Choice @2:00",
+          "yardage": 100
+        },
+        {
+          "type": "step",
+          "text": "1 x 100 Fast! @2:00",
+          "yardage": 100
+        },
+        {
+          "type": "step",
+          "text": "50 Kick Hard @1:00",
+          "yardage": 50
+        },
+        {
+          "type": "step",
+          "text": "100 Easy Choice @2:00",
+          "yardage": 100
+        }
+      ]
     },
     {
       "id": "m6",
@@ -229,17 +429,127 @@
       "yardage": 1800,
       "stroke": "universal",
       "courseType": "distance",
-      "difficulty": "easy",
-      "structure": "Rotating 50 kick, 150 pull, 2x100 hard/easy combo, repeated 4x with varying intensity"
+      "difficulty": "hard",
+      "segments": [
+        {
+          "type": "step",
+          "text": "50 Kick @1:00",
+          "yardage": 50
+        },
+        {
+          "type": "step",
+          "text": "150 Pull Easy @2:15",
+          "yardage": 150
+        },
+        {
+          "type": "step",
+          "text": "2 x 100 — 1 Hard, 1 Easy @1:30",
+          "yardage": 200
+        },
+        {
+          "type": "step",
+          "text": "50 Kick Choice @1:00",
+          "yardage": 50
+        },
+        {
+          "type": "step",
+          "text": "150 Pull Hard @2:15",
+          "yardage": 150
+        },
+        {
+          "type": "step",
+          "text": "2 x 100 — 1 Build, 1 Hard @1:30",
+          "yardage": 200
+        },
+        {
+          "type": "step",
+          "text": "50 Kick @1:00",
+          "yardage": 50
+        },
+        {
+          "type": "step",
+          "text": "150 Pull Easy @2:15",
+          "yardage": 150
+        },
+        {
+          "type": "step",
+          "text": "2 x 100 — 1 Hard, 1 Fast @1:30",
+          "yardage": 200
+        },
+        {
+          "type": "step",
+          "text": "50 Kick Choice @1:00",
+          "yardage": 50
+        },
+        {
+          "type": "step",
+          "text": "150 Pull Hard @2:15",
+          "yardage": 150
+        },
+        {
+          "type": "step",
+          "text": "2 x 100 Both Fast @1:30",
+          "yardage": 200
+        },
+        {
+          "type": "step",
+          "text": "50 Kick @1:00",
+          "yardage": 50
+        },
+        {
+          "type": "step",
+          "text": "150 Pull Easy @2:15",
+          "yardage": 150
+        }
+      ]
     },
     {
       "id": "m7",
       "name": "Descend to Fast Non-Free + Easy Free",
-      "yardage": 1550,
+      "yardage": 2550,
       "stroke": "stroke",
       "courseType": "distance",
       "difficulty": "moderate",
-      "structure": "3 rounds descending distance (100/75/50) of non-free choice descend + easy free, plus kick/pull recovery"
+      "segments": [
+        {
+          "type": "round",
+          "count": 3,
+          "steps": [
+            {
+              "text": "100 Descend to Fast Non-Free Choice + 100 Easy Free @3:30",
+              "yardage": 200
+            },
+            {
+              "text": "4 x 25 Kick Easy + 100 Pull Easy",
+              "yardage": 200
+            }
+          ]
+        },
+        {
+          "type": "round",
+          "count": 3,
+          "steps": [
+            {
+              "text": "75 Descend to Fast Non-Free Choice + 75 Easy Free @2:30",
+              "yardage": 150
+            },
+            {
+              "text": "4 x 25 Kick Easy + 100 Pull Easy",
+              "yardage": 200
+            }
+          ]
+        },
+        {
+          "type": "round",
+          "count": 3,
+          "steps": [
+            {
+              "text": "50 Descend to Fast Non-Free Choice + 50 Easy Free @1:45",
+              "yardage": 100
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "m8",
@@ -248,61 +558,270 @@
       "stroke": "free",
       "courseType": "distance",
       "difficulty": "hard",
-      "structure": "4x50 descend, 3x200 moderate-hard, 4x100 best average, 8x25 sprint"
+      "segments": [
+        {
+          "type": "step",
+          "text": "4 x 50 Free Descend 1-4 @:50",
+          "yardage": 200
+        },
+        {
+          "type": "step",
+          "text": "3 x 200 Free Moderate-Hard @2:45",
+          "yardage": 600
+        },
+        {
+          "type": "step",
+          "text": "100 Easy Choice",
+          "yardage": 100
+        },
+        {
+          "type": "step",
+          "text": "4 x 100 Free Best Average @1:30",
+          "yardage": 400
+        },
+        {
+          "type": "step",
+          "text": "100 Easy Pull",
+          "yardage": 100
+        },
+        {
+          "type": "step",
+          "text": "8 x 25 Sprint Free @:35",
+          "yardage": 200
+        },
+        {
+          "type": "step",
+          "text": "100 Easy Swim",
+          "yardage": 100
+        }
+      ]
     },
     {
       "id": "m9",
       "name": "IM Focus",
-      "yardage": 1600,
+      "yardage": 1500,
       "stroke": "IM",
       "courseType": "distance",
       "difficulty": "hard",
-      "structure": "4x100 IM descend, 4x75 stroke drill/swim, 4x100 IM strong, 4x25 choice sprint"
+      "segments": [
+        {
+          "type": "step",
+          "text": "4 x 100 IM Descend @1:40",
+          "yardage": 400
+        },
+        {
+          "type": "step",
+          "text": "100 Easy Choice",
+          "yardage": 100
+        },
+        {
+          "type": "step",
+          "text": "4 x 75 Stroke (25 Drill/50 Swim) @1:30",
+          "yardage": 300
+        },
+        {
+          "type": "step",
+          "text": "100 Easy Pull",
+          "yardage": 100
+        },
+        {
+          "type": "step",
+          "text": "4 x 100 IM Strong @1:35",
+          "yardage": 400
+        },
+        {
+          "type": "step",
+          "text": "100 Easy Choice",
+          "yardage": 100
+        },
+        {
+          "type": "step",
+          "text": "4 x 25 Choice Sprint @:40",
+          "yardage": 100
+        }
+      ]
     },
     {
       "id": "m10",
       "name": "Broken 300s",
-      "yardage": 1800,
+      "yardage": 1700,
       "stroke": "free",
       "courseType": "distance",
-      "difficulty": "moderate",
-      "structure": "3x300 broken free (moderate/hard/build), pull recovery, kick hard, fast 100s"
+      "difficulty": "hard",
+      "segments": [
+        {
+          "type": "step",
+          "text": "3 x 300 Free (100 Moderate + 100 Hard + 100 Build) @4:30",
+          "yardage": 900
+        },
+        {
+          "type": "step",
+          "text": "100 Easy Pull",
+          "yardage": 100
+        },
+        {
+          "type": "step",
+          "text": "6 x 50 Kick Hard @:55",
+          "yardage": 300
+        },
+        {
+          "type": "step",
+          "text": "100 Easy Swim",
+          "yardage": 100
+        },
+        {
+          "type": "step",
+          "text": "3 x 100 Fast Free @1:45",
+          "yardage": 300
+        }
+      ]
     },
     {
       "id": "m11",
       "name": "Choice Pace",
-      "yardage": 1750,
+      "yardage": 1550,
       "stroke": "stroke",
       "courseType": "distance",
       "difficulty": "moderate",
-      "structure": "5x100 choice strong/easy, pull recovery, 5x100 choice descend, kick, fast 50s"
+      "segments": [
+        {
+          "type": "step",
+          "text": "5 x 100 Choice — Odds Strong, Evens Easy @1:40",
+          "yardage": 500
+        },
+        {
+          "type": "step",
+          "text": "200 Pull Easy",
+          "yardage": 200
+        },
+        {
+          "type": "step",
+          "text": "5 x 100 Choice — Descend 1-5 @1:35",
+          "yardage": 500
+        },
+        {
+          "type": "step",
+          "text": "200 Kick Choice",
+          "yardage": 200
+        },
+        {
+          "type": "step",
+          "text": "3 x 50 Fast Choice @1:00",
+          "yardage": 150
+        }
+      ]
     },
     {
       "id": "m12",
       "name": "Sprint Free",
-      "yardage": 1650,
+      "yardage": 1450,
       "stroke": "free",
       "courseType": "sprint",
-      "difficulty": "easy",
-      "structure": "6x50 sprint/easy, easy choice, 4x100 fast, pull easy, 8x25 all out"
+      "difficulty": "hard",
+      "segments": [
+        {
+          "type": "step",
+          "text": "6 x 50 Free — 25 Sprint/25 Easy @:55",
+          "yardage": 300
+        },
+        {
+          "type": "step",
+          "text": "200 Easy Choice",
+          "yardage": 200
+        },
+        {
+          "type": "step",
+          "text": "4 x 100 Free Fast @1:40",
+          "yardage": 400
+        },
+        {
+          "type": "step",
+          "text": "200 Pull Easy",
+          "yardage": 200
+        },
+        {
+          "type": "step",
+          "text": "8 x 25 All Out @:40",
+          "yardage": 200
+        },
+        {
+          "type": "step",
+          "text": "150 Easy",
+          "yardage": 150
+        }
+      ]
     },
     {
       "id": "m13",
       "name": "IM & Stroke Rounds",
-      "yardage": 1800,
+      "yardage": 1000,
       "stroke": "IM",
       "courseType": "distance",
       "difficulty": "hard",
-      "structure": "4 rounds of 100 IM strong + 50 stroke drill + 50 stroke fast + 50 easy free"
+      "segments": [
+        {
+          "type": "round",
+          "count": 4,
+          "steps": [
+            {
+              "text": "100 IM Strong @1:40",
+              "yardage": 100
+            },
+            {
+              "text": "50 Stroke Drill @1:10",
+              "yardage": 50
+            },
+            {
+              "text": "50 Stroke Fast @1:00",
+              "yardage": 50
+            },
+            {
+              "text": "50 Easy Free @1:00",
+              "yardage": 50
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "m14",
       "name": "Descending Distance",
-      "yardage": 1700,
+      "yardage": 1500,
       "stroke": "free",
       "courseType": "distance",
-      "difficulty": "moderate",
-      "structure": "400/300/200/100 free descending distance each faster, easy 100s and sprint 25s to finish"
+      "difficulty": "hard",
+      "segments": [
+        {
+          "type": "step",
+          "text": "400 Free Moderate @6:00",
+          "yardage": 400
+        },
+        {
+          "type": "step",
+          "text": "300 Free Build @4:30",
+          "yardage": 300
+        },
+        {
+          "type": "step",
+          "text": "200 Free Hard @2:50",
+          "yardage": 200
+        },
+        {
+          "type": "step",
+          "text": "100 Fast Free @1:45",
+          "yardage": 100
+        },
+        {
+          "type": "step",
+          "text": "4 x 100 Easy Choice @1:50",
+          "yardage": 400
+        },
+        {
+          "type": "step",
+          "text": "4 x 25 Sprint @:35",
+          "yardage": 100
+        }
+      ]
     },
     {
       "id": "m15",
@@ -311,16 +830,68 @@
       "stroke": "IM",
       "courseType": "distance",
       "difficulty": "hard",
-      "structure": "8x50 IM order, pull easy, 4x100 IM, easy swim, 8x25 stroke sprint"
+      "segments": [
+        {
+          "type": "step",
+          "text": "8 x 50 IM Order @:55",
+          "yardage": 400
+        },
+        {
+          "type": "step",
+          "text": "200 Easy Pull",
+          "yardage": 200
+        },
+        {
+          "type": "step",
+          "text": "4 x 100 IM @1:40",
+          "yardage": 400
+        },
+        {
+          "type": "step",
+          "text": "200 Easy Swim",
+          "yardage": 200
+        },
+        {
+          "type": "step",
+          "text": "8 x 25 Stroke Sprint @:40",
+          "yardage": 200
+        },
+        {
+          "type": "step",
+          "text": "200 Choice Easy",
+          "yardage": 200
+        }
+      ]
     },
     {
       "id": "m16",
       "name": "Aerobic Free",
-      "yardage": 1900,
+      "yardage": 1600,
       "stroke": "free",
       "courseType": "distance",
       "difficulty": "moderate",
-      "structure": "5x200 free (odds moderate, evens hard), kick, pull build, easy choice"
+      "segments": [
+        {
+          "type": "step",
+          "text": "5 x 200 Free — Odds Moderate, Evens Hard @2:50",
+          "yardage": 1000
+        },
+        {
+          "type": "step",
+          "text": "4 x 50 Kick @1:00",
+          "yardage": 200
+        },
+        {
+          "type": "step",
+          "text": "4 x 75 Pull Build @1:15",
+          "yardage": 300
+        },
+        {
+          "type": "step",
+          "text": "100 Easy Choice",
+          "yardage": 100
+        }
+      ]
     },
     {
       "id": "m17",
@@ -329,52 +900,234 @@
       "stroke": "stroke",
       "courseType": "distance",
       "difficulty": "hard",
-      "structure": "100-200-300-400 choice ladder up then back down (300-200), easy swim finish"
+      "segments": [
+        {
+          "type": "step",
+          "text": "100 Choice Moderate @1:45",
+          "yardage": 100
+        },
+        {
+          "type": "step",
+          "text": "200 Choice Strong @3:00",
+          "yardage": 200
+        },
+        {
+          "type": "step",
+          "text": "300 Choice Build @4:30",
+          "yardage": 300
+        },
+        {
+          "type": "step",
+          "text": "400 Choice Moderate @6:00",
+          "yardage": 400
+        },
+        {
+          "type": "step",
+          "text": "300 Choice Strong @4:20",
+          "yardage": 300
+        },
+        {
+          "type": "step",
+          "text": "200 Choice Fast @2:50",
+          "yardage": 200
+        },
+        {
+          "type": "step",
+          "text": "200 Easy Swim",
+          "yardage": 200
+        }
+      ]
     },
     {
       "id": "m18",
       "name": "Stroke Descend",
-      "yardage": 1550,
+      "yardage": 1000,
       "stroke": "stroke",
       "courseType": "distance",
       "difficulty": "moderate",
-      "structure": "5 rounds of 100 non-free choice descend, 50 easy free, 50 kick strong"
+      "needsReview": "Header in source says 1550; steps sum to 1000 (off by 550).",
+      "segments": [
+        {
+          "type": "round",
+          "count": 5,
+          "steps": [
+            {
+              "text": "100 Non-Free Choice Descend @2:00",
+              "yardage": 100
+            },
+            {
+              "text": "50 Easy Free @1:00",
+              "yardage": 50
+            },
+            {
+              "text": "50 Kick Strong @1:00",
+              "yardage": 50
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "m19",
       "name": "Race Pace Free",
-      "yardage": 1800,
+      "yardage": 1600,
       "stroke": "free",
       "courseType": "sprint",
       "difficulty": "hard",
-      "structure": "8x25 fast, easy swim, 6x100 race pace, pull easy, 4x50 sprint"
+      "segments": [
+        {
+          "type": "step",
+          "text": "8 x 25 Fast @:35",
+          "yardage": 200
+        },
+        {
+          "type": "step",
+          "text": "200 Easy",
+          "yardage": 200
+        },
+        {
+          "type": "step",
+          "text": "6 x 100 Free Race Pace @1:35",
+          "yardage": 600
+        },
+        {
+          "type": "step",
+          "text": "200 Pull Easy",
+          "yardage": 200
+        },
+        {
+          "type": "step",
+          "text": "4 x 50 Free Sprint @:55",
+          "yardage": 200
+        },
+        {
+          "type": "step",
+          "text": "200 Easy Choice",
+          "yardage": 200
+        }
+      ]
     },
     {
       "id": "m20",
       "name": "Pull & Swim",
-      "yardage": 1700,
+      "yardage": 1500,
       "stroke": "free",
       "courseType": "distance",
       "difficulty": "moderate",
-      "structure": "4x150 pull build, 4x100 hard, easy choice, 4x50 pull fast, 4x25 sprint"
+      "segments": [
+        {
+          "type": "step",
+          "text": "4 x 150 Pull Build @2:15",
+          "yardage": 600
+        },
+        {
+          "type": "step",
+          "text": "4 x 100 Free Hard @1:35",
+          "yardage": 400
+        },
+        {
+          "type": "step",
+          "text": "200 Easy Choice",
+          "yardage": 200
+        },
+        {
+          "type": "step",
+          "text": "4 x 50 Pull Fast @:55",
+          "yardage": 200
+        },
+        {
+          "type": "step",
+          "text": "4 x 25 Sprint Choice @:35",
+          "yardage": 100
+        }
+      ]
     },
     {
       "id": "m21",
       "name": "IM Ladder",
-      "yardage": 1600,
+      "yardage": 1400,
       "stroke": "IM",
       "courseType": "distance",
       "difficulty": "hard",
-      "structure": "50 fly/100 back/150 breast/200 free/150 breast/100 back/50 fly ladder, then 8x50 IM order descend"
+      "segments": [
+        {
+          "type": "step",
+          "text": "50 Fly @1:00",
+          "yardage": 50
+        },
+        {
+          "type": "step",
+          "text": "100 Back @1:40",
+          "yardage": 100
+        },
+        {
+          "type": "step",
+          "text": "150 Breast @3:00",
+          "yardage": 150
+        },
+        {
+          "type": "step",
+          "text": "200 Free @3:00",
+          "yardage": 200
+        },
+        {
+          "type": "step",
+          "text": "150 Breast @3:00",
+          "yardage": 150
+        },
+        {
+          "type": "step",
+          "text": "100 Back @1:40",
+          "yardage": 100
+        },
+        {
+          "type": "step",
+          "text": "50 Fly @1:00",
+          "yardage": 50
+        },
+        {
+          "type": "step",
+          "text": "8 x 50 IM Order Descend @:55",
+          "yardage": 400
+        },
+        {
+          "type": "step",
+          "text": "200 Easy Choice",
+          "yardage": 200
+        }
+      ]
     },
     {
       "id": "m22",
       "name": "Broken 400s",
-      "yardage": 1800,
+      "yardage": 1600,
       "stroke": "free",
       "courseType": "distance",
       "difficulty": "hard",
-      "structure": "2 rounds of broken 400 free (moderate/hard/moderate/fast), kick hard, pull easy"
+      "segments": [
+        {
+          "type": "round",
+          "count": 2,
+          "steps": [
+            {
+              "text": "400 Free (100 Moderate + 100 Hard + 100 Moderate + 100 Fast) @6:00",
+              "yardage": 400
+            },
+            {
+              "text": "100 Easy",
+              "yardage": 100
+            },
+            {
+              "text": "4 x 50 Kick Hard @:55",
+              "yardage": 200
+            },
+            {
+              "text": "100 Pull Easy",
+              "yardage": 100
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "m23",
@@ -382,8 +1135,39 @@
       "yardage": 1750,
       "stroke": "stroke",
       "courseType": "sprint",
-      "difficulty": "medium",
-      "structure": "16x25 choice sprint, easy swim, 8x50 choice fast/easy, pull, 4x100 choice descend"
+      "difficulty": "hard",
+      "segments": [
+        {
+          "type": "step",
+          "text": "16 x 25 Choice Sprint @:35",
+          "yardage": 400
+        },
+        {
+          "type": "step",
+          "text": "200 Easy",
+          "yardage": 200
+        },
+        {
+          "type": "step",
+          "text": "8 x 50 Choice — Odds Fast, Evens Easy @:55",
+          "yardage": 400
+        },
+        {
+          "type": "step",
+          "text": "200 Pull",
+          "yardage": 200
+        },
+        {
+          "type": "step",
+          "text": "4 x 100 Choice Descend @1:40",
+          "yardage": 400
+        },
+        {
+          "type": "step",
+          "text": "150 Easy",
+          "yardage": 150
+        }
+      ]
     }
   ],
   "cooldowns": [
