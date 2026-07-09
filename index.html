@@ -1,0 +1,68 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <h1>SET THE <span>PACE</span></h1>
+            <p class="tagline">Pick your yardage, stroke focus, and effort level. Get a full workout — warm-up to
+                cool-down — built from real coach-written sets.</p>
+        </header>
+
+        <div class="panel">
+            <div class="field">
+                <span class="field-label">Total Yardage</span>
+                <div class="options" id="opt-bucket">
+                    <button class="opt" data-value="under1k">Under 1,000</button>
+                    <button class="opt" data-value="1k2k">1,000 – 2,000</button>
+                    <button class="opt" data-value="2k3k">2,000 – 3,000</button>
+                    <button class="opt" data-value="3k4k">3,000 – 4,000</button>
+                </div>
+            </div>
+
+            <div class="field">
+                <span class="field-label">Stroke Focus</span>
+                <div class="options" id="opt-stroke">
+                    <button class="opt" data-value="free">Freestyle</button>
+                    <button class="opt" data-value="stroke">Stroke (your choice)</button>
+                    <button class="opt" data-value="IM">IM</button>
+                </div>
+            </div>
+
+            <div class="field">
+                <span class="field-label">Course Type</span>
+                <div class="options" id="opt-course">
+                    <button class="opt" data-value="sprint">Sprint</button>
+                    <button class="opt" data-value="distance">Distance</button>
+                </div>
+            </div>
+
+            <div class="field">
+                <span class="field-label">Difficulty</span>
+                <div class="options" id="opt-difficulty">
+                    <button class="opt" data-value="easy">Easy</button>
+                    <button class="opt" data-value="moderate">Moderate</button>
+                    <button class="opt" data-value="hard">Hard</button>
+                </div>
+            </div>
+
+            <button class="generate-btn" id="generate-btn">GENERATE WORKOUT</button>
+        </div>
+
+        <div id="result">
+            <div class="result-card" id="result-card"></div>
+            <div class="result-actions">
+                <button class="action-btn" id="regenerate-btn">↻ Regenerate</button>
+                <button class="action-btn" id="print-btn">⬇ Save as PDF</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
