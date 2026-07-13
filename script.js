@@ -1,4 +1,11 @@
-import DATA from './swim_sets.json' with { type: 'json' };
+let DATA;
+
+async function loadData() {
+    const response = await fetch("./swim_sets.json");
+    DATA = await response.json();
+}
+
+await loadData();
 
 const BUCKETS = {
     under1k: { label: "Under 1,000", min: 400, max: 999, mode: "preset" },
