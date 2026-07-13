@@ -1,4 +1,4 @@
-import data from './swim_sets.json' with { type: 'json' };
+import DATA from './swim_sets.json' with { type: 'json' };
 
 const BUCKETS = {
     under1k: { label: "Under 1,000", min: 400, max: 999, mode: "preset" },
